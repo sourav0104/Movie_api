@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-image: radial-gradient(#c21e36, #4c4950);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+
+.logo img {
+    width: 65px;
+    margin: 20px 80px;
+}
+
+.main {
+    position: relative;
+}
+
+.left {
+    width: 60%;
+    position: relative;
+}
+
+.left h1 {
+    color: #fff;
+    margin: 40px 60px;
+    font-size: 58px;
+    margin-top: 130px;
+    font-weight: 700;
+    margin-left: 90px;
+}
+
+.left span {
+    font-size: 32px;
+    font-weight: 500;
+    position: absolute;
+    top: 58px;
+    word-spacing: 2px;
+}
+
+.fa-search {
+    position: absolute;
+    left: 467px;
+    top: 163px;
+    font-size: 18px;
+}
+
+form {
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.searchBlock {
+    padding: 10px 30px;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1.5px solid #000;
+    cursor: pointer;
+}
+
+/* button{
+    padding: 10px 30px;
+    margin-left: -4px;
+    box-sizing: border-box;
+    border-radius: 0px 6px 6px 0px;
+    border: 1.5px solid #000;
+    font-weight: 700;
+    color: #fff;
+    opacity: .8;
+    background-color: #000;
+}  */
+.right {
+    width: 60%;
+}
+
+.right img {
+    width: 1000px;
+    margin-left: 280px;
+    margin-top: -410px;
+}
+
+.searchBlock::placeholder {
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    opacity: .5;
+}
+
+.fa-times-circle {
+    color: #fff;
+    margin-left: 1160px;
+    position: relative;
+    top: -690px;
+    font-size: 40px;
+}
+#speechIcon{
+    position: absolute;
+    top: 145px;
+    right: 230px;
+    font-size: 50px;
+    margin-top: 4px;
+    text-shadow: 1px 0px 0px red;
+}
+
+#template {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    width: 1200px;
+    margin: 47px auto;
+    padding: 0px 40px;
+    border-radius: 4px;
+    position: relative;
+    top: -690px;
+    background-image: radial-gradient(#c21e36, #4c4950);
+}
+
+#template img {
+    width: 170px;
+    height: 200px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: 20px 20px;
+
+}
+
+#template h1 {
+    position: relative;
+    left: -15px;
+    margin-top: 50px;
+    margin-left: -80px;
+}
+
+#template a {
+    position: relative;
+    left: -50px;
+    margin-top: 110px;
+    margin-left: -100px;
+}
+
+
+
+/*
+#template h3{
+    margin-top: 240px;
+    color: #000;
+    position: relative;
+    left: -140px;
+} 
+.after_formBlock{
+    display: flex;
+    justify-content: flex-start !important;
+    height: auto !important;
+} */
+
+
+@media(max-width) {
+    .left h1 {
+        font-size: 20px;
+    }
+}
